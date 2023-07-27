@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+   
+
+.navbar{
+    height: 100px;
+    background-color: #2d412f;
+}
+.offers{
+    left: 76px;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menus{
+    left: 50px;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.book-a-table{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Bebas Neue;
+    background: #2d412f;
+    border: 1px solid #fff;
+    letter-spacing: 1.5px;
+}
+.heading1{
+    font-size: 48px;
+    font-family: 'Lato';
+    position: relative;
+    color: #2d412f
+}
+.heading2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d412f;
+    font-family: 'Lato';
+}
+.newsletter-container{
+    background-image: url(images/bookingbg.webp);
+}
+.footer-sign{
+    position: relative;
+    bottom: 25px;
+    left: 32px;
+}
+.book-a-table-2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Bebas Neue;
+    background: #2d412f;
+    border: 1px solid #fff;
+    letter-spacing: 1.5px;
+}
+.menu-bgg{
+    background-color: none;
+}
+.footer-logo{
+    background-color: black;
+}
+@media  screen and (max-width : 991px) {
+    .menu-bgg{
+       background-color: gray;
+       z-index: 11;
+    }
+}
+@media  screen and (max-width : 767px) {
+    .book-a-table-2{
+        position: relative;
+        left: 169px;
+        top: 81px;
+    }
+}
